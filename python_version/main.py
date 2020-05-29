@@ -7,7 +7,6 @@ import numpy as np
 import tensorflow as tf
 
 from tensorflow.keras import datasets, layers, models
-import matplotlib.pyplot as plt
 
 def unpickle(file):
     with open(file, 'rb') as f:
